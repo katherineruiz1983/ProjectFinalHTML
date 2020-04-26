@@ -1,0 +1,108 @@
+
+body{
+	background-color: #00004d;
+	background-size: auto;
+}
+/*Header*/
+header {
+	background-color: white;
+	margin: auto;	
+}
+header .container1 {
+	margin: auto;  /* allows you to expand and contract the screen */
+	width: 99.99%;    /*Size of the container inside the screen*/
+	height: 95%;	
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+	color: black;		
+}
+header a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	font-size: 23px;
+}
+header li {
+	float: left;
+	display: inline;
+	padding: 0 10px;
+}
+header #div1 {	
+	border-bottom: 3px solid #ff0000;
+	background-color:#f2f2f2 ;
+	overflow: hidden;
+}
+header #div1 h1{
+	margin: 0;
+	float: left;
+}
+header #div1 ul {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-weight: bold;
+}
+header #div1 span {
+	color: #ff0000;	/*put all to the right*/	
+}
+header #div1 img {
+	padding-left: 15px;	
+}
+/* CONTAINER1 GENERAL DESCRIPTION */
+
+#container1{
+	margin: auto;
+	padding: 10px;	
+	color: #f2f2f2;
+}
+#container1 #box1{
+  float:left;
+  text-align: center;
+  width:23%;  
+}
+
+/**********FINALISE PAYMENT *******/
+#finalisePayment{
+	float:left; 
+	margin:0px 0px 0px 10px;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+	color: #f2f2f2;
+}
+#finalisePayment h1{
+	text-align: center;
+}
+#finalisePayment #box2{
+  float:left;  
+  width:600px;
+  padding: 0px 60px 0px 60px;   
+  text-align: left;
+  overflow: hidden;
+
+}
+#finalisePayment input{
+  float:left;     
+  width: 600px; 
+
+}
+#finalisePayment #Agree{
+	width: 20px;
+}
+#finalisePayment #submit{
+	float:left;
+	width: 400px;
+	margin: 0px 490px; 
+	padding-left:30px; 
+	text-align: center;
+	
+}
+/*#finalisePayment #ubmit p{
+  
+  width:400px;
+  padding: 10px 50px 10px 55px; 
+  margin: 20px;
+  }

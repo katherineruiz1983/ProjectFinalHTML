@@ -1,0 +1,256 @@
+
+body{
+	background-color: white;
+}
+/*Header*/
+header {
+	background-color: white;
+	margin: auto;	
+}
+
+/********COLOR******/
+header .container1 {
+	margin: auto;  /* allows you to expand and contract the screen */
+	width: 99.99%;    /*Size of the container inside the screen*/
+	height: 95%;
+	background-image: url(../images/blue-sky.jpg);
+    background-position: top right;
+    background-size: 1500px 720px;
+    background-repeat: no-repeat;
+    min-height: 720px;    
+    color: white;
+    margin:auto;	
+}
+.container1 #div1{
+	text-align: center;
+}
+.container1 #div1 #ColorAmount{
+	width: 395px;
+	margin-bottom: 2px;
+	padding: 0px;
+	
+	}
+.container1 #div1 button{
+	width: 400px;
+	padding: 0px;
+	margin-bottom: 2px;
+}
+.container2 #div2{
+	overflow: hidden;	
+	text-align: center;
+	width: 2000px;
+	background-repeat: no-repeat;
+	
+}
+.container2 #ColorContainer1{
+	margin: auto;
+    padding: 20px 70px 70px 70px;    
+}
+.container2 #ColorContainer1 #Colorbox1{
+	overflow: hidden;
+    float: left;
+    width: 24%;
+    padding: 2px;
+}
+.container2 #ColorContainer1 img{
+    width: 350px;
+    height: 188px ;
+}
+.container2 #ColorContainer1 h3, h4{
+margin: 0px;
+padding: 0px;
+}
+.container2 #ColorContainer1 a{
+	color: #4d4d4d;
+}
+.container2 #ColorContainer1 #FormCart{
+	color:#4d4d4d;
+}
+.container2 #ColorContainer2{
+    margin: auto;
+    padding: 70px;    
+}
+.container2 #ColorContainer2 #Colorbox2{
+    overflow: hidden;
+    float: left;
+    width: 24%;
+    padding: 2px;
+}
+.container2 #ColorContainer2 img{
+    width: 350px;
+    height: 188px ;
+}
+.container2 #ColorContainer2 h3, h4{
+margin: 0px;
+padding: 0px;
+}
+.container2 #ColorContainer2 a{
+	color: white;
+}
+/*******BLACK *****/
+#section2 .container3 {
+	margin: auto;  /* allows you to expand and contract the screen */
+	width: 99.99%;    /*Size of the container inside the screen*/
+	height: 95%;
+	background-image: url(../images/grey-sky.jpg);
+    background-position: top right;
+    background-size: 1500px 810px;
+    background-repeat: no-repeat;
+    min-height: 720px;    
+    color: white;
+    margin:auto;	
+}
+.container3 #div3{
+	overflow: hidden;	
+	width: 99.99%;
+	background-repeat: no-repeat;
+	float: none;
+	text-align: center;
+}
+.container3 #div3 #blackAmount{
+	width: 395px;
+	margin-bottom: 2px;
+	padding: 0px;
+	
+	}
+.container3 #div3 button{
+	width: 400px;
+	padding: 0px;
+	margin-bottom: 2px;
+}
+/**** GO TO INVOICE */
+
+.container3 #GoToInvoice form{	
+	text-align: center;
+	overflow: hidden;
+	width: 400px;
+	padding: 0px;
+	margin:auto;
+}
+.container3 #GoToInvoice button{	
+	text-align: center;
+	overflow: hidden;
+	width: 400px;
+	padding: 0px;
+	margin:auto;
+	padding: 5px;
+}
+	
+.container3 #GoToInvoice a{	
+text-decoration: none;
+font-family: serif;
+font: bold;
+font-size: 15px;
+}
+/**** ----------------- */
+.container2 #div2{
+	overflow: hidden;	
+	text-align: center;
+	width: 2000px;
+	background-repeat: no-repeat;	
+}
+.container2 #blackContainer1{
+	margin: auto;
+    padding: 20px 70px 70px 70px; 
+}
+.container2 #blackContainer1 #blackbox1{
+	overflow: hidden;
+    float: left;
+    width: 24%;
+    padding: 2px;
+}
+.container2 #blackContainer1 img{
+    width: 350px;
+    height: 188px ;
+}
+.container2 #blackContainer1 h3, h4{
+margin: 0px;
+padding: 0px;
+}
+.container2 #blackContainer1 a{
+	color: white;
+}
+.container2 #blackContainer1 #FormCart{
+	color:white;
+}
+.container2 #blackContainer2{
+    margin: auto;
+    padding: 70px;    
+}
+.container2 #blackContainer2 #blackbox2{
+    overflow: hidden;
+    float: left;
+    width: 24%;
+    padding: 2px;
+}
+.container2 #blackContainer2 img{
+    width: 350px;
+    height: 188px ;
+}
+.container2 #blackContainer2 h3, h4{
+margin: 0px;
+padding: 0px;
+}
+.container2 #blackContainer2 a{
+	color: white;
+}
+
+/*
+.container2 #div2 #BlackAmount{
+	width: 395px;
+	margin-bottom: 2px;
+	padding: 0px;
+	
+	}
+.container2 #div2 button{
+	width: 400px;
+	padding: 0px;
+	margin-bottom: 2px;
+}
+	
+*/
+/*FOOTER*/
+footer {
+	background-color: white;
+	margin: auto;		
+}
+footer .container3 {
+	margin: 0%;  /* allows you to expand and contract the screen */
+	width: 99.99%;    /*Size of the container inside the screen*/
+	height: 60%;
+	text-align: center;	
+	border-top: 3px solid #ff0000;
+	background-color:#f2f2f2;
+}
+footer #div3 {		
+	
+	overflow: hidden;
+}
+footer #div3 ul{		
+	margin: 5px;
+	padding: 0;
+}
+footer #div3 li{	
+list-style: none;	
+display: inline;
+
+}
+footer #div3 img{	
+margin: 5px 5px 5px 30px;
+padding: 5px;
+border-radius: 50px;
+}
+
+footer #div3 p{	
+padding: 5px;
+}
+footer #div4 p{	
+margin: 5px 5px 5px 5px;
+padding: 0;
+}
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>BLack</title>
+		<link rel="stylesheet" type="text/css" href="./css/black-css.css">
+		<script type="text/javascript" src="./js/black.js"></script>
+		<!-- https://developers.google.com/speed/libraries  its better in the end of body-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+<a name="top"></a>
+	<body>
+		<header>			
+		<div class="container1"> 
+			<div id="div1">
+				<h1><span >THINGS TO DO</span> IN CANADA </h1>
+				<img src="./images/flag.jpg" height="40" width="60"> 
+			<nav>
+				<ul>
+					<li><a href="welcome.html">Welcome</a></li>
+					<li><a href="Black.html">Black & White Galery</a></li>
+					<li><a href="color.html">Color Galery</a></li>
+					<li><a href="shopping.html">Shopping</a></li>
+					<li><a href="invoice.html">Invoice</a></li>
+					<li><a href="login.html">Logout</a></li>
+				</ul>
+			</nav>
+		</div>
+		</header>
+<!-- 	********** 	BLACK & WHITE		********** -->
+
+<div class="container2">
+	<div id="div2">
+				<h1>Black & White</h1>		
+	</div>
+	<div id="blackContainer1">
+         <div id="blackbox1" >		
+			<img onclick="clickimage1()" class="blackImg" src="./images/9.SamueldeChamplainQuebec.jpg" alt="Image Not Found" title="Samuel">
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+        <div id="blackbox1" >
+        	<img class="blackImg" onclick="clickimage2()" src="./images/10.ValiantsMemorialOttawa.jpg" >
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+        <div id="blackbox1" >
+        	<img class="blackImg"  onclick="clickimage3()" src="./images/11.Geoge_etienneCartierMontreal.jpg" >
+        	<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+        <div id="blackbox1" >
+        	<img class="blackImg" onclick="clickimage4()" src="./images/12.TerryFoxOntario.jpg" > 
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+	</div>
+	<div id="blackContainer2">
+        <div id="blackbox2">
+			<img class="blackImg"  onclick="clickimage5()" src="./images/13.fontainedeTournyQuebec.jpg">
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+        <div id="blackbox2" >
+        	<img  class="blackImg" onclick="clickimage6()" src="./images/14.CruzdeMontreal.jpg">
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+        <div id="blackbox2" >
+			<img class="blackImg" onclick="clickimage7()" src="./images/15.TheGiantNickelSudbury.jpg">
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+        <div id="blackbox2" >
+        	<img class="blackImg" onclick="clickimage8()" src="./images/16.cntowerintoronto.jpg"> 
+			<div class="blackbox1_hidden"> 				 
+				<h3>titulo 1</h3>
+				<h4> was a French colonist</h4>
+				<h4>Québec, QC G1R 4S7</h4>
+				<a href="#top" title="Go to the top">go to the top</a>
+			</div>
+        </div>
+	</div>
+</div>		
+
+<script type="text/javascript">
+
+	$(".blackImg").css("filter",'grayscale(100%)');
+
+	var click=false;
+	function clickimage1(){		
+		if (click==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/9.SamueldeChamplainQuebec.jpg")			
+		}
+	}
+	var click2=false;
+	function clickimage2(){		
+		if (click2==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");			
+			click2=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/10.ValiantsMemorialOttawa.jpg")			
+		}
+	}
+
+	var click3=false;
+	function clickimage3(){		
+		if (click3==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click3=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/11.Geoge_etienneCartierMontreal.jpg")		
+		}
+	}
+	var click4=false;
+		function clickimage4(){		
+		if (click4==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click4=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/12.TerryFoxOntario.jpg")			
+		}
+	}
+	var click5=false;
+	function clickimage5(){		
+		if (click5==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click5=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/13.fontainedeTournyQuebec.jpg")			
+		}
+	}
+	var click6=false;
+		function clickimage6(){		
+		if (click6==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click6=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/14.CruzdeMontreal.jpg")			
+		}
+	}
+	var click7=false;
+		function clickimage7(){		
+		if (click7==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click7=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/15.TheGiantNickelSudbury.jpg")			
+		}
+	}
+	var click8=false;
+		function clickimage8(){		
+		if (click8==false){			
+			console.log("es false");
+			$(".blackbox1_hidden").css("display","block");
+			click8=true;			
+		}else{
+			console.log("es true");
+			window.location.assign("./images/16.cntowerintoronto.jpg")		
+		}
+	}
+</script>
+
+	</body>
+</html>
